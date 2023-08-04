@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>123</title>
+    <title>name project</title>
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header-content">
             <div class="header-content__title">
-                high life
+                name project
             </div>
             <div class="header-content__wrap-left">
                 <div class="header-content-left">
@@ -24,11 +24,11 @@
                 <div class="header-content-right">
                     <div class="header-content-right__tel">+7 900 000 00 00</div>
                     <div class="header-content-right__select">выбрать квартиру</div>
-                    <div class="header-content-right__lang">
+                    <div class="header-content-right__lang" onclick="langSelect(this)">
                         <span class="header-content-right__lang_style_active">eng</span>/<span
                             class="header-content-right__lang_style">rus</span>
                     </div>
-                    <div class="header-content-right__burger-menu">
+                    <div class="header-content-right__burger-menu" onclick="menuActive(this)">
                         <div class="header-content-right__burger-menu-body">
                             <span></span>
                         </div>
@@ -36,20 +36,34 @@
                 </div>
             </div>
         </header>
+        <div class="menu">
+            <ul class="menu__links">
+                <li class="menu__item">о проекте</li>
+                <li class="menu__item">виды</li>
+                <li class="menu__item">расположение</li>
+                <li class="menu__item">архитектура</li>
+                <li class="menu__item">отделка</li>
+                <li class="menu__item">оазис в центре</li>
+                <li class="menu__item">входные группы</li>
+                <li class="menu__item">инфраструктура</li>
+                <li class="menu__item">подземный паркинг</li>
+                <li class="menu__item">купить квартиру</li>
+                <li class="menu__item">условия покупки</li>
+                <li class="menu__item">контакты</li>
+            </ul>
+            <div class="menu__img">
+                <img src="./img/menu-img.jpg" alt="Изображение квартиры">
+            </div>
+        </div>
         <main class="main-content">
             <div class="main-block">
-                <div class="main-block__background-img"></div>
-                <p class="main-block__text-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                    natus alias porro quia fugiat,
-                    ullam nesciunt corrupti accusantium nemo. Et.
-                </p>
-                <h2 class="main-block__title">It's high life</h2>
+                
             </div>
         </main>
         <div class="skip-section">
             high live
         </div>
+        <div class="empty"></div>
     </div>
     <script src="./script/script.js"></script>
 </body>
