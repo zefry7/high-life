@@ -1,0 +1,103 @@
+.advantages-complex-block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.advantages-complex__left-content {
+    flex: 0 0 40%;
+    background-color: #cbc1b7;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.advantages-complex__title {
+    font-size: 60px;
+    letter-spacing: -0.1rem;
+    line-height: .8;
+    cursor: default;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.advantages-complex__list {
+    position: relative;
+    top: 12px;
+}
+.advantages-complex__item {
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+}
+.advantages-complex__item div {
+    cursor: pointer;
+    width: 340px;
+    padding: 10px;
+}
+.advantages-complex__item input {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+}
+.advantages-complex__item:hover {
+    transition: all 0.3s ease 0s;
+    color: #726c65;
+}
+.advantages-complex__item input:checked + div {
+    outline: 1px solid black;
+    color: black;
+}
+.advantages-complex__right-content {
+}
+.advantages-complex__body-theme {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    display: none;
+}
+.advantages-complex__body-theme_active {
+    display: block;
+}
+.advantages-complex__img-item {
+    width: 100%;
+    height: 30%;
+}
+.advantages-complex__img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.advantages-complex__text {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    color: #726c65;
+    font-size: 16px;
+    line-height: 20px;
+}
+.advantages-complex__text h6 {
+    font-size: 20px;
+    color: #3d3a36;
+    margin: 10px 0px;
+}
+.advantages-complex__text-title{
+    color: black;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.advantages-complex__background-img {
+    height: 100%;
+}
+.advantages-complex__background-img  img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}

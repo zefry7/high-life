@@ -63,22 +63,32 @@
             <div class="pop-up__button">отправить</div>
         </div>
         <main class="main-content">
-            <div class="title-block">
-                <div class="title-block__row-top">
-                    <p class="title-block__text-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                        natus alias porro quia fugiat,
-                        ullam nesciunt corrupti accusantium nemo. Et.
-                    </p>
-                    <div class="title-block__year">
-                        Дата сдачи объекта
-                        <hr>
-                        2024
-                    </div>
+            <div class="view-block">
+                <div class="view-block__title-row">
+                    <h2 class="view-block__title-left">
+                        виды <br> из окон
+                    </h2>
+                    <ul class="view-block__view-row" onclick="viewChange()">
+                        <li class="view-block__view-item">
+                            <input data-goto="1" type="radio" name="view" checked>
+                            <div>утро</div>
+                        </li>
+                        <li class="view-block__view-item">
+                            <input data-goto="2" type="radio" name="view">
+                            <div>день</div>
+                        </li>
+                        <li class="view-block__view-item">
+                            <input data-goto="3" type="radio" name="view">
+                            <div>вечер</div>
+                        </li>
+                        <li class="view-block__view-item">
+                            <input data-goto="4" type="radio" name="view">
+                            <div>ночь</div>
+                        </li>
+                    </ul>
                 </div>
-                <h2 class="title-block__title">It's name project</h2>
                 <div class="title-block__background-img">
-                    <img src="./img/img-main.jpg" alt="Фоновое изображение">
+                    <img src="./img/view-morning.jpg" alt="Фоновое изображение">
                 </div>
             </div>
         </main>

@@ -1,0 +1,70 @@
+.contact-block {
+    width: 100%;
+    height: calc(100vh - 64px);
+    padding: 40px 70px;
+    cursor: default;
+    background: linear-gradient(rgba(0, 0, 0, 0), black) center/100% 100% repeat;
+    display: flex;
+    align-items: flex-end;
+
+}
+.contact-block__info {
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-block__office {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.contact-block__office > br + span {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.contact-block__tel {
+    font-size: 70px;
+    letter-spacing: -0.3rem;
+    margin-bottom: 10px;
+}
+.contact-block__social-media {
+
+}
+.contact-block__social-media-item {
+    float: left;
+    padding: 20px 40px 20px 0px;
+}
+.contact-block__logo {
+    font-size: 100px;
+    letter-spacing: -0.5rem;
+}
+.contact-block__background-img {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: img-zoom 40s linear infinite;
+    overflow: hidden;
+}
+.contact-block__background-img img {
+    width: 100%;
+    height: 100%;
+}
+@keyframes img-zoom {
+    0% {
+      transform: scale(1) translate(0, 0);
+    }
+    50% {
+      transform: scale(1.2) translate(0, 0);
+    }
+    100% {
+      transform: scale(1) translate(0, 0);
+    }
+}

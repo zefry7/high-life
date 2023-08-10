@@ -1,0 +1,39 @@
+.map-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: calc(100vh - 64px);
+    padding: 40px 70px;
+    cursor: default;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgb(133, 133, 133);
+}
+.map-block__info {
+    color: white;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 33.3% 66.6%;
+    margin-bottom: 30px;
+}
+.map-block__info-column {
+}
+.map-block__title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.map-block__address {
+    font-size: 26px;
+}
+.map-block__description {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.map-block__text {
+    line-height: 15px;
+    color: rgb(223, 223, 223);
+}
+.map-block__map {
+    height: 100%;
+    width: 100%;
+}
