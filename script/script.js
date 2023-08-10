@@ -105,7 +105,7 @@ function visibleContent() {
     let main = document.getElementsByClassName("main-content")[0];
     switch (numberPage) {
         case (0):
-            history.pushState(null, null, "/index.html")
+            history.pushState(null, null, "/high-life/index.html")
             main.innerHTML =
                 `            <div class="title-block">
             <div class="title-block__row-top">
@@ -127,7 +127,7 @@ function visibleContent() {
             </div>`
             break;
         case (1):
-            history.pushState(null, null, "/222.html")
+            history.pushState(null, null, "/high-life/222.html")
             main.innerHTML =
                 `<div class="advantages-complex-block">
             <div class="advantages-complex__left-content">
@@ -171,7 +171,7 @@ function visibleContent() {
         </div>`
             break;
         case (2):
-            history.pushState(null, null, "/333.html")
+            history.pushState(null, null, "/high-life/333.html")
             main.innerHTML = ` 
             <div class="plan-block">
                 <div class="plan-block__marker">
@@ -186,7 +186,7 @@ function visibleContent() {
 
             break;
         case (3):
-            history.pushState(null, null, "/444.html")
+            history.pushState(null, null, "/high-life/444.html")
             main.innerHTML = `
             <div class="view-block">
                 <div class="view-block__title-row">
@@ -218,7 +218,7 @@ function visibleContent() {
             </div>`;
             break;
         case (4):
-            history.pushState(null, null, "/555.html")
+            history.pushState(null, null, "/high-life/555.html")
             main.innerHTML = `<div class="advantages-complex-block">
             <div class="advantages-complex__left-content">
                 <h3 class="advantages-complex__title">Благоустройство<br> квартиры</h3>
@@ -261,7 +261,7 @@ function visibleContent() {
             </div>`
             break;
         case (5):
-            history.pushState(null, null, "/666.html")
+            history.pushState(null, null, "/high-life/666.html")
             main.innerHTML = `<div class="map-block">
             <div class="map-block__info">
                 <div class="map-block__info-column">
@@ -290,7 +290,7 @@ function visibleContent() {
             </div>`;
             break;
         case (6):
-            history.pushState(null, null, "/777.html")
+            history.pushState(null, null, "/high-life/777.html")
             main.innerHTML = `<div class="company-block">
             <div class="company-block__body">
                 <div class="company-block__column">
@@ -326,7 +326,7 @@ function visibleContent() {
             valueChange(0)
             break;
         case (7):
-            history.pushState(null, null, "/888.html")
+            history.pushState(null, null, "/high-life/888.html")
             main.innerHTML = null;
             break;
         case (8):
